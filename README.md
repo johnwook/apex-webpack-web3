@@ -21,3 +21,8 @@ in `project.json`
 ## deploy
 
 - `apex deploy`
+
+# Caution
+
+- to make web3.js work, you have to build packages (`npm install`) in lambad-compatible runtime
+- I did it in gitlab CI

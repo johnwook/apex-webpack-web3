@@ -10,7 +10,7 @@
     "serverless"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "web3": "^1.0.0-beta.34"
   },

@@ -1,0 +1,11 @@
+{
+  "name": "apex-webpack-web3",
+  "runtime": "nodejs8.10",
+  "role": "arn:aws:iam::000000000000:role/web3",
+  "handler": "index.default",
+  "hooks": {
+    "clean": "rm -rf index.js",
+    "prebuild": "rm -rf index.js",
+    "build": "../../node_modules/.bin/webpack --config ../../webpack.config.js"
+  }
+}

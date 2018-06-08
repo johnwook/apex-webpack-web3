@@ -1,0 +1,14 @@
+{
+  "name": "apex-webpack-web3",
+  "version": "1.0.0",
+  "description": "Demonstrate how to use web3.js in lambda with apex",
+  "keywords": [
+    "apex",
+    "lambda",
+    "web3.js",
+    "ethereum",
+    "serverless"
+  ],
+  "author": "",
+  "license": "ISC"
+}
